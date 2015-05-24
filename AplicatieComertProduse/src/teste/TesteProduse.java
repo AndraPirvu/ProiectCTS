@@ -35,7 +35,7 @@ public class TesteProduse {
 
 	@Test
 	public void test24Produs() throws Exception {
-		boolean existaProdus = bd.existaProdus("Rosii");
+		boolean existaProdus = bd.existaProdus("Tricouri");
 		assertTrue(existaProdus);
 	}
 
